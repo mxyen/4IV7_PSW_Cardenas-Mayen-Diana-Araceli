@@ -23,8 +23,8 @@ nav, section, footer, aside, article{
 
 }
 article, aside{
-    width: 380px;
-    height: 60px;
+    width: 40%;
+    height: 250tpx;
     display: inline-block;
     background-color: rgb(250, 193, 202); 
     

@@ -9,7 +9,7 @@ div{
     padding-left: 28px;
     width: 45%;
     margin: 0 auto;
-    height: 18cm;
+    height: 50cm;
     margin-top: 20px;          
 }
 
@@ -31,14 +31,14 @@ legend{
 
 #izquierda{
     margin-top: 35px;
-    width: 30%;
+    width: 35%;
     border: 1px;
     float: left;
-    height: 15cm;
+    height: 20cm;
     background-color: rgb(22, 21, 49);
     color: white;
     padding: 25px;
-    margin-right: 20px;
+   
 }
 
 #izq{

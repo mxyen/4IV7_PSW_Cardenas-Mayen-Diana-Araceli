@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen práctico</title>
+    <link rel="stylesheet" href="Examen/css/style.css">
+    <script src="js/tabla.js"></script>
+</head>
+<body>
+     <div class="main">
+        <header>
+            <nav>
+                <h1>Examen practico. Cálculo interes compuesto</h1>
+            </nav>
+            
+        </header>
+
+        <div class="tabla">
+            <article>
+                <form method="post" name="interescompuesto" onsubmit="algoritmo(this)" action="">
+                    <table border="4" style="text-align: left; margin-left: auto; margin-right: auto;">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label>Valor del auto:</label>
+                                </td>
+
+                                <td>
+                                    <input name="valor" type="valor" id="valor"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Cuota inicial:</label>                                    
+                                </td>
+                                <td>
+                                    <input name="cuotai" type="cuotai" id="cuotai"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Periodo:</label>
+                                </td>
+                                <td>
+                                    <input name="periodo" type="periodo" id="periodo"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Interés:</label>
+                                </td>
+                                <td>
+                                    <label>3,94%</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Cuota:</label>
+                                </td>
+                                <td>
+                                    <input name="cuota" type="cuota"/>
+                                </td>
+                            </tr>
+                            <tr align="center">
+                                <td colspan="2" rowspan="1">
+                                    <input value="Calcular" type="button"  onclick="algoritmo();"/>
+                                    <input type="reset" name="borrar"  value="Borrar Datos"/>                        
+                                </td>
+                            </tr> 
+
+                        </tbody>
+
+                    </table>
+                                                   
+                </form>
+
+            </article>
+
+        </div>
+    </div>
+
+        <a href="../index.html">Regresar a principal </a>
+
+    
+    
+</body>
+</html>

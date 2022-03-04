@@ -1,13 +1,100 @@
 *{
-    margin: 3;
-    padding: 2;
+    margin: 0;
+    padding: 0;
     
 }
 
 body{
     background-image: url(../img/codefont.jpg);
-   
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;  
+    padding-top: 6rem; 
 }
 
+.userloggin{
+    height: 400px;
+    width: 400px;
+    border-radius: 15px solid red ;
+    margin-top: 10%;
+    text-align-last: center;
+}
 
+.tittle{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.userid{
+    padding-top: 20px;
+}
+
+.userid h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+    margin-left: 50px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+.userid input{
+    height: 13px;
+    width: 250px;
+    border: 2px solid rgb(111, 186, 248);
+    border-radius: 25px;
+}
+
+.password{
+    margin-top: 11px;
+}
+
+.password h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 5px;
+
+}
+
+.password input{
+    height: 13px ;
+    width: 250px;
+    border: 2px solid rgb(111, 186, 248);
+    border-radius: 25px;
+}
+.button{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.button button{
+    border-radius: 15px;
+    width: 120px;
+    height: 35px;
+}
+
+.button img{
+    float: left;
+}
+
+.button p{
+    margin-top: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    margin-top: 20px;
+    float: left;
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+}
 

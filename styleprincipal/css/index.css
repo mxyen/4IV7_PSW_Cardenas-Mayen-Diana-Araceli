@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+a{
+    font-size: 2rem;
+}
+body{
+    background-image: url(../imgs/trex.gif);
+    background-size: auto;
+    align-items: center;
+    flex-direction: column;
+}
+.imagendearriba1{
+    display: inline-block;
+        
+}
+
+.imagendearriba2{
+    display: inline-block;
+}
+

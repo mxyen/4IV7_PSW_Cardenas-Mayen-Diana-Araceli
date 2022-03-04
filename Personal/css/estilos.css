@@ -26,7 +26,7 @@ nav, section, footer, aside, article{
 }
 article, aside{
     width: 40%;
-    height: 250px;
+    height: 280px;
     display: inline-block;
     background-color: rgb(193, 224, 250); 
     
@@ -35,3 +35,13 @@ article, aside{
 nav,footer, section{
     background-color: rgb(133, 241, 147);
 }
+
+h1{
+    text-transform: uppercase;
+}
+
+.mapa{
+    height: 120px;
+    width: 750px;
+}
+

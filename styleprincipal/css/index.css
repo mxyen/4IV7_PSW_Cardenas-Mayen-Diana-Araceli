@@ -14,7 +14,7 @@ a{
 body{
     background-image: url(../imgs/trex.gif);
     background-size: auto;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
 }
 .imagendearriba1{
@@ -26,3 +26,14 @@ body{
     display: inline-block;
 }
 
+.links{
+    display: inline-block;
+    width: fit-content;
+    padding: 2%;
+    background-color: rgb(223, 172, 243);
+    border-radius: 15px;
+    border-style: ridge;
+    border-color: rgb(92, 24, 119);
+    
+    
+}

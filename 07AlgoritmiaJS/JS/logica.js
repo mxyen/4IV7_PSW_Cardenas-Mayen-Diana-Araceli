@@ -1,6 +1,6 @@
 //problema 1
 function problema1(){
-    var p1_input = document.querySelector('#p1-input    ').value;
+    var p1_input = document.querySelector('#p1-input').value;
     var palabra=p1_input.split(" ");
     cadenainvertida=[];
     for(i=0;i<palabra.length;i++){
@@ -8,43 +8,48 @@ function problema1(){
     }
     document.querySelector('#p1-output').textContent="";
     for(i=0;i<cadenainvertida.length;i++){
-        document.querySelector('#p1-output').textContent +='Palabra:'+palabra[i]+'='+cadenainvertida[i]+'\n';
+        document.querySelector('#p1-output').textContent+='Palabra:'+palabra[i]+'='+cadenainvertida[i]+'\n';
     }
     
     function invertir(cadena){
-    return cadena.split("").reverse().join("");
+        return cadena.split("").reverse().join("");
     }
 }
 
 function problema2(){
+    var negativos=/^-/;
     //obtencion de datos
-    var x1=document.getElementById("p2-x1").value;
-    var x2=document.getElementById("p2-x2").value;
-    var x3=document.getElementById("p2-x3").value;
-    var x4=document.getElementById("p2-x4").value;
-    var x5=document.getElementById("p2-x5").value;
-    var y1=document.getElementById("p2-y2").value;
-    var y2=document.getElementById("p2-y2").value;
-    var y3=document.getElementById("p2-y3").value;
-    var y4=document.getElementById("p2-y4").value;
-    var y5=document.getElementById("p2-y5").value;
+    var x1=parseInt(document.getElementById("p2-x1").value);
+    var x2=parseInt(document.getElementById("p2-x2").value)
+    var x3=parseInt(document.getElementById("p2-x3").value)
+    var x4=parseInt(document.getElementById("p2-x4").value)
+    var x5=parseInt(document.getElementById("p2-x5").value)
+    var y1=parseInt(document.getElementById("p2-y1").value)
+    var y2=parseInt(document.getElementById("p2-y2").value)
+    var y3=parseInt(document.getElementById("p2-y3").value)
+    var y4=parseInt(document.getElementById("p2-y4").value)
+    var y5=parseInt(document.getElementById("p2-y5").value)
     var A=[x1,x2,x3,x4,x5];
     var B=[y1,y2,y3,y4,y5];
-    var ppAB=0;
-    var ppab=0;
+    var dagc=0;
+    var dagc1=0;
     var suma=0
     for(i=0;i<=4;i++){
         suma+=A[i]*B[i];
     }
-    ppAB=suma;
+    dagc=suma;
     var C=A.reverse();
     var suma2=0;
-    
+    for(i=0;i<=4;i++){
+        suma2+=C[i]*B[i];
+    }
+    dagc1=suma2;
+    if(dagc1>dagc){
+        document.querySelector('#p2-output').textContent="El menor producto escalar es: X.Y = "+dagc;
 
-
-
-
-
+    }else{
+        document.querySelector('#p2-output').textContent="El producto escalar es X^-1 Y="+dagc1;
+    }
 }
 
 

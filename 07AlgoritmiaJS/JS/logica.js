@@ -17,7 +17,34 @@ function problema1(){
 }
 
 function problema2(){
+    //obtencion de datos
+    var x1=document.getElementById("p2-x1").value;
+    var x2=document.getElementById("p2-x2").value;
+    var x3=document.getElementById("p2-x3").value;
+    var x4=document.getElementById("p2-x4").value;
+    var x5=document.getElementById("p2-x5").value;
+    var y1=document.getElementById("p2-y2").value;
+    var y2=document.getElementById("p2-y2").value;
+    var y3=document.getElementById("p2-y3").value;
+    var y4=document.getElementById("p2-y4").value;
+    var y5=document.getElementById("p2-y5").value;
+    var A=[x1,x2,x3,x4,x5];
+    var B=[y1,y2,y3,y4,y5];
+    var ppAB=0;
+    var ppab=0;
+    var suma=0
+    for(i=0;i<=4;i++){
+        suma+=A[i]*B[i];
+    }
+    ppAB=suma;
+    var C=A.reverse();
+    var suma2=0;
     
+
+
+
+
+
 }
 
 

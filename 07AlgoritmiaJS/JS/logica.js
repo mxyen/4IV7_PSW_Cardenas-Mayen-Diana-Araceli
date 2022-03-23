@@ -3,8 +3,23 @@ function problema1(){
     var p1_input = document.querySelector('#p1-input    ').value;
     var palabra=p1_input.split(" ");
     cadenainvertida=[];
-    for()
+    for(i=0;i<palabra.length;i++){
+        cadenainvertida.push(invertir(palabra[i]));
+    }
+    document.querySelector('#p1-output').textContent="";
+    for(i=0;i<cadenainvertida.length;i++){
+        document.querySelector('#p1-output').textContent +='Palabra:'+palabra[i]+'='+cadenainvertida[i]+'\n';
+    }
+    
+    function invertir(cadena){
+    return cadena.split("").reverse().join("");
+    }
 }
+
+function problema2(){
+    
+}
+
 
 
 

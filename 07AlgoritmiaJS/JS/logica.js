@@ -1,39 +1,10 @@
 //problema 1
 function problema1(){
-    
+    var p1_input = document.querySelector('#p1-input    ').value;
+    var palabra=p1_input.split(" ");
+    cadenainvertida=[];
+    for()
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -69,7 +40,7 @@ function problema3(){
     var p3_res = '';
 
     //iterar en cada palabra
-    p3_palabras.forEach(function(palabra,I){
+    p3_palabras.forEach(function(palabra,i){
         //separar las palabras en un array para leer cada letra
         var letras_unicas = [];
         var palabra_array = palabra.split ('');

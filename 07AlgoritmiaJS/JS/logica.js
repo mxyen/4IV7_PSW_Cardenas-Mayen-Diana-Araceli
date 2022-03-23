@@ -53,19 +53,6 @@ function problema2(){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 function problema3(){
     //definir un alfabeto
     var alfabeto = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'Ñ', 'O',

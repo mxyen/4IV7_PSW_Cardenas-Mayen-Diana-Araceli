@@ -90,5 +90,21 @@ td{
     border-left: 1px solid #c3c3c3;
 }
 
+.index{
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 1px;
+    width: 100%;
+    font-size: 25px;
+    background-color: #A0CCF7;    
+}
+p{
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 1px;
+    width: 100%;
+    font-size: 25px;
+    background-color: #A0CCF7;    
 
+}
 

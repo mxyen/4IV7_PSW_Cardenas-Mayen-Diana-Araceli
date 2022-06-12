@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;   
+}
+
+body{
+    background-color: #E1E1E1;
+    
+}
+
+a,li{
+    font-family: 'Roboto',sans-serif;
+    color:white;
+    
+}
+
+.logo-header img{
+    width:50px;
+}
+
+header{
+    background: 	#952F57;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-menu li{
+    margin-right: 1.5rem;
+}
+
+.nav-menu a:hover{
+    color: #2d0f19;
+}
+
+.nav-menu li:last-child{
+    background-color: #ff7514;
+    border: 2px solid #d46c24;
+    padding:.25rem;
+    border-radius:  .2rem;
+    
+}
+
+.nav-menu li:nth-last-child(2){
+    background-color: #ff7514;
+    border: 2px solid #d46c24;
+    padding:.25rem;
+    border-radius:  .2rem;
+    
+}
+
+.nav-menu li:last-child:hover{
+    background: transparent;
+    border: 2px solid #d46c24;
+}
+
+.nav-menu li:nth-last-child(2):hover{
+    background: transparent;
+    border: 2px solid #d46c24;
+}
+
+.img{
+    text-align: center;
+    padding: 1.5rem;
+   
+}
+
+
+
+
+.main-containerbitacora{
+    margin: auto;
+    width: 80%;
+    padding: 2rem;
+    
+  
+}
+
+table{
+    background-color: #f3efef;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    padding:15px;
+
+}
+
+thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D;
+    color:white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{ 
+    background-color: #369681;
+    color:white;
+    
+}
+
+h1{
+    color:white;
+    text-align: center;
+}
+
+.link{
+    color:white;
+    text-align: center;
+}
+
+
